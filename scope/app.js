@@ -37,13 +37,13 @@ They only exist within the curly braces {} where they were defined.
 {
   let age = 25;
   const city = "Ankara";
-  // var ile yazilsaydi disaridan da erisilebilir olurdu.
+  // If it were declared with var, it could be accessed from outside the block.
 }
 
 console.log(age); // Error
 console.log(city); // Error
 
-// note: var is not a block scope.
+// note: var is not a block scope. it is a function scope.
 
 function method1() {
   var a = 5; //function scope
