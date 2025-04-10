@@ -11,7 +11,7 @@
         %=
 */
 
-// ------>  = assignment operator
+// ------>  = Simple Assignment
 // It is used to assign a value to a variable.
 
 let e = 5; //let variable = value
