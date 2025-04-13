@@ -1,10 +1,10 @@
 //DIALOG BOXES
 
 /*
-     Alert
-     Prompt
-     Confirm
-*/
+      Alert
+      Prompt
+      Confirm
+ */
 
 // NOTE: All three of these methods are part of the WINDOW OBJECT in JavaScript.
 

@@ -2,9 +2,9 @@
 
 //var:function scope
 /*  A variable declared with var behaves like it has block scope, 
-but it actually works within function scope. 
-This means that even if it’s defined inside a block like an if statement or a for loop,
-it will still be valid throughout the entire function */
+ but it actually works within function scope. 
+ This means that even if it’s defined inside a block like an if statement or a for loop,
+ it will still be valid throughout the entire function */
 
 function sayHello() {
   var greeting = "Hello";

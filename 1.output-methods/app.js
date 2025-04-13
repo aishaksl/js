@@ -13,7 +13,7 @@ let b = 4;
 console.log("to sum of two numbers: " + (a + b));
 console.log("to sum of two numbers: ", a + b);
 // to clear the console, we can use console.clear()
-console.clear();
+// console.clear();
 
 // alert()
 alert("Hello world");

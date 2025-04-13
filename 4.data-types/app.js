@@ -1,13 +1,13 @@
 // data-types
 /*
-1-String : Text values
-2-Number : Numeric values
-3-Boolean : True or False (evet-hayir)
-4- Null : A deliberate non-value //bos (daha sonra veri atanabilir)
-5-Undefined : A variable that has been declared but not assigned a value (deger aciklanmis ama deger verilmemis)
-6-Object : Used for collections of data and more complex entities 
-7-Function : Functions are also objects in js
-*/
+ 1-String : Text values
+ 2-Number : Numeric values
+ 3-Boolean : True or False (evet-hayir)
+ 4- Null : A deliberate non-value //bos (daha sonra veri atanabilir)
+ 5-Undefined : A variable that has been declared but not assigned a value (deger aciklanmis ama deger verilmemis)
+ 6-Object : Used for collections of data and more complex entities 
+ 7-Function : Functions are also objects in js
+ */
 
 //Typeof operator is used to check the data type of a value or variable
 // typeof (variableName)
