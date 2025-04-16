@@ -1,4 +1,4 @@
-// AMSTRONG NUMBER
+// ARMSTRONG NUMBER
 
 let num = prompt("Please enter a number");
 let sum = 0;
@@ -9,7 +9,7 @@ for (i = 0; i <= num.length; i++) {
 }
 
 if (sum == num) {
-  alert(num + " is amstrong number");
+  alert(num + " is armstrong number");
 } else {
-  alert(num + " is not amstrong number");
+  alert(num + " is not armstrong number");
 }
