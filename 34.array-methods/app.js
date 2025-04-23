@@ -25,6 +25,9 @@
   
     reverse()   : It reverses the order of elements in an array.
 	              It changes (mutates) the original array.
+
+   includes()   : Checks if an array or a string contains a certain value.
+   
 */
 
 // push() – Adds an item to the end
@@ -183,3 +186,17 @@ let sentence = "I love JavaScript";
 let words = sentence.split(" ");
 
 console.log(words); // ["I", "love", "JavaScript"]
+
+// includes(): Checks if an array or a string contains a certain value.
+
+// For Arrays
+
+var color = ["red", "blue", "green"];
+console.log(color.includes("blue")); // true
+console.log(color.includes("yellow")); // false
+
+// For Strings
+
+const message = "Hello, world!";
+console.log(message.includes("world")); // true
+console.log(message.includes("World")); // false (case-sensitive)
