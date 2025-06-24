@@ -1,0 +1,24 @@
+/* File: css/style.css */
+
+.box {
+  background-color: lightgray;
+  padding: 10px;
+  margin: 5px;
+}
+
+.highlight {
+  border: 2px solid red;
+}
+
+.active {
+  background-color: yellow;
+}
+
+.new-class {
+  font-weight: bold;
+  color: green;
+}
+
+.another-class {
+  text-decoration: underline;
+}
