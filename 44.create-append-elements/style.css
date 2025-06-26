@@ -1,0 +1,10 @@
+    .parent {
+      padding: 20px;
+      background-color: #f0f0f0;
+    }
+    .child {
+      margin: 10px 0;
+      padding: 10px;
+      background-color: #cce5ff;
+      border: 1px solid #007bff;
+    }
