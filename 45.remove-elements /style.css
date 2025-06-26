@@ -1,0 +1,15 @@
+.list {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: 2px solid #ccc;
+  width: 300px;
+  margin: 20px auto;
+}
+
+.list-item {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #ffdddd;
+  border: 1px solid #ff0000;
+  font-family: Arial, sans-serif;
+}
