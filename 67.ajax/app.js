@@ -58,6 +58,12 @@ fetch("https://jsonplaceholder.typicode.com/posts", {
 /*
   headers: {
     "Content-Type": "application/json", // Specifies that the data being sent is in JSON format.
+    "Accept": "application/json", // Tells the server that the client expects JSON in response.
+    "Authorization": "Bearer YOUR_TOKEN_HERE", // Sends a token for authentication if the API requires it.
+    "Cookie": "sessionId=abc123", // Sends cookies manually with the request.
+    "User-Agent": "MyCustomApp/1.0", // Identifies the client application making the request.
+    "X-Requested-With": "XMLHttpRequest", // Often used to indicate an AJAX request.
+    "X-Api-Key": "YOUR_API_KEY" // Sends an API key if your API requires it.
   },
 */
 
