@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <title>Document</title>
+  </head>
+  <body class="bg-gray-100">
+    <div>
+      <div class="form-wrapper">
+        <form
+          id="form"
+          class="py-8 w-4/5 mx-auto flex flex-col justify-center items-center"
+        >
+          <input
+            id="search-input"
+            type="text"
+            placeholder="Search Something "
+            class="bg-gray-200 w-[60%] text-left py-2 px-3 rounded-xl text-gray-600 text-sm focus:outline-none border border-transparent focus:border-orange-400"
+          />
+          <div class="button-wrapper m-5 flex flex-row gap-x-8">
+            <button
+              id="search-button"
+              class="min-w-[83px] border border-green-500 px-4 py-1 rounded-md bg-green-400 text-white"
+            >
+              Search
+            </button>
+            <button
+              id="clear-button"
+              class="min-w-[83px] border border-red-500 px-4 py-1 rounded-lg bg-red-400 text-white"
+            >
+              Clear
+            </button>
+          </div>
+        </form>
+      </div>
+      <div
+        class="image-wrapper px-4 gap-3 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 h-full"
+      ></div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
